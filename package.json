@@ -1,7 +1,6 @@
 {
     "scripts": {
-      "build": "bunx nue build --production",
-      "start": "bunx nue serve"
+"build": "sh build.sh"
     },
     "engines": {
       "bun": ">=1.0.0"
