@@ -1,0 +1,7 @@
+{
+    "scripts": {
+      "dev": "bunx nue dev",
+      "build": "bunx nue build --production",
+      "start": "bunx nue" 
+    }
+  }
