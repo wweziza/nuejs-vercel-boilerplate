@@ -1,0 +1,1 @@
+import{fetchWithAuth as D}from"./auth.js";async function F(x){let q=[await B()],z=localStorage.getItem("_ts")||0;if(z)q.push(await B(z));return localStorage.setItem("_ts",Date.now()),q}async function B(x){let q=sessionStorage.rust?"big-chunk":"chunk";return await D(x?`${q}-1.json?ts=${x}`:`${q}-0.json`,!0)}export{F as loadChunks};
